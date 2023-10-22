@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Todo App</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="text-center">To Do</h2>
+
+      <div class="form-group">
+        <input
+          type="text"
+          class="form-control"
+          name=""
+          placeholder="Create a new todo.."
+          id="itemInput"
+        />
+      </div>
+      <h3>Todo List</h3>
+      <ul id="todoList">
+        <li class="footer">
+          <p class="calcLeft">0 items left</p>
+          <div>
+            <p class="All">All</p>
+            <p class="Active">Active</p>
+            <p class="Complated">Complated</p>
+          </div>
+          <div>
+            <p class="clearCopmlated">Clear Complated</p>
+            <p id="clearButton">Clear todo</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <script src="./js.js"></script>
+  </body>
+</html>
